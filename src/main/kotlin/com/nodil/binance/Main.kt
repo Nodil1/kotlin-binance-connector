@@ -1,3 +1,5 @@
+package com.nodil.binance
+
 import com.nodil.binance.core.models.KlineInterval
 import com.nodil.binance.core.streams.CandleStickStream
 
