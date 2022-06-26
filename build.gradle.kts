@@ -19,8 +19,8 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
     implementation("io.ktor:ktor-client-cio:2.0.2")
     implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.17.2")
-    implementation("org.apache.logging.log4j:log4j-core:2.17.2")
     implementation("io.ktor:ktor-serialization-kotlinx-json:2.0.2")
+    implementation("org.apache.logging.log4j:log4j-core:2.17.2")
     testImplementation(kotlin("test"))
 
 }

@@ -1,10 +1,8 @@
-package core.streams
+package com.nodil.binance.core.streams
 
-import core.WebSocketStream
-import core.models.Kline
-import core.models.KlineInterval
+import com.nodil.binance.core.WebSocketStream
+import com.nodil.binance.core.models.Kline
 import io.ktor.client.plugins.websocket.*
-import java.text.DateFormatSymbols
 
 class CandleStickStream(
     interval: String,

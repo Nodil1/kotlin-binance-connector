@@ -1,4 +1,4 @@
-package core.models
+package com.nodil.binance.core.models
 
 class KlineInterval {
 

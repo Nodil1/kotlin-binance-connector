@@ -1,6 +1,5 @@
-import core.WebSocketStream
-import core.models.KlineInterval
-import core.streams.CandleStickStream
+import com.nodil.binance.core.models.KlineInterval
+import com.nodil.binance.core.streams.CandleStickStream
 
 fun main(args: Array<String>) {
     val stream = CandleStickStream(KlineInterval.MINUTE_1, "adausdt")

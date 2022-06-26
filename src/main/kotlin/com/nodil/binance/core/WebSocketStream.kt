@@ -1,18 +1,13 @@
-package core
+package com.nodil.binance.core
 
-import core.models.Trade
 import io.ktor.client.*
 import io.ktor.client.plugins.*
 import io.ktor.client.plugins.websocket.*
 import io.ktor.http.*
-import io.ktor.websocket.*
 import kotlinx.coroutines.runBlocking
 import io.ktor.serialization.kotlinx.*
 import kotlinx.serialization.json.*
-import okhttp3.OkHttp
-import okhttp3.OkHttpClient
 
-import java.util.*
 import kotlin.system.measureTimeMillis
 
 abstract class WebSocketStream(
