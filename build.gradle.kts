@@ -6,8 +6,8 @@ plugins {
     application
 }
 
-group = "org.nodil"
-version = "1.0-SNAPSHOT"
+group = "com.nodil"
+version = "1.0"
 
 repositories {
     mavenCentral()
@@ -21,6 +21,8 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.17.2")
     implementation("io.ktor:ktor-serialization-kotlinx-json:2.0.2")
     implementation("org.apache.logging.log4j:log4j-core:2.17.2")
+    implementation("com.github.kittinunf.fuel:fuel:2.3.1")
+    implementation("commons-codec:commons-codec:1.15")
     testImplementation(kotlin("test"))
 
 }

@@ -32,7 +32,6 @@ abstract class WebSocketStream(
                     val time = measureTimeMillis {
                         onDataReceived(this)
                     }
-                    println(time)
                 }
             }
         }

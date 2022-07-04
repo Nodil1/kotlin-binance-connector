@@ -3,11 +3,12 @@ package com.nodil.binance.core.streams
 import com.nodil.binance.core.WebSocketStream
 import com.nodil.binance.core.models.Kline
 import io.ktor.client.plugins.websocket.*
+import java.util.*
 
 class CandleStickStream(
     interval: String,
     symbol: String,
-) : WebSocketStream("kline_$interval", symbol) {
+) : WebSocketStream("kline_$interval", symbol.lowercase(Locale.getDefault())) {
     private lateinit var onReceive: (kline: Kline) -> Unit
     private lateinit var onKlineClose: (kline: Kline) -> Unit
 
