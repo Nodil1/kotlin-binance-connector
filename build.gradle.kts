@@ -23,6 +23,7 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-core:2.17.2")
     implementation("com.github.kittinunf.fuel:fuel:2.3.1")
     implementation("commons-codec:commons-codec:1.15")
+    implementation("org.json:json:20220320")
     testImplementation(kotlin("test"))
 
 }

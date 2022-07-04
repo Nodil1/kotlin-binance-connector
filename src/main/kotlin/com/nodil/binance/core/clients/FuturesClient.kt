@@ -5,10 +5,13 @@ import com.github.kittinunf.fuel.core.await
 import com.github.kittinunf.fuel.httpGet
 import com.github.kittinunf.fuel.httpPost
 import com.github.kittinunf.result.Result
+import com.google.gson.JsonObject
 import com.nodil.binance.core.models.FutureTradeRequest
 
 import com.nodil.binance.core.models.enums.TradeSide
 import com.nodil.binance.core.models.enums.TradeTypes
+import org.json.JSONArray
+import org.json.JSONObject
 
 class FuturesClient(api: String, secretKey: String) : BaseClient(api, secretKey) {
 
@@ -51,8 +54,25 @@ class FuturesClient(api: String, secretKey: String) : BaseClient(api, secretKey)
             is Result.Success -> {
                 val data = result.get()
                 println(data)
-
             }
         }
+    }
+
+    fun getSymbolsInfo(): JSONArray {
+        val (request, response, result) = "https://fapi.binance.com/fapi/v1/exchangeInfo"
+            .httpGet()
+            .responseString()
+
+        when (result) {
+            is Result.Failure -> {
+                println(response)
+            }
+            is Result.Success -> {
+                val data = JSONObject(result.get())
+                println(data)
+                return data.getJSONArray("symbols")
+            }
+        }
+        throw Exception()
     }
 }
