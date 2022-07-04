@@ -46,7 +46,7 @@ class FuturesClient(api: String, secretKey: String) : BaseClient(api, secretKey)
 
         when (result) {
             is Result.Failure -> {
-
+                println(response)
             }
             is Result.Success -> {
                 val data = result.get()
