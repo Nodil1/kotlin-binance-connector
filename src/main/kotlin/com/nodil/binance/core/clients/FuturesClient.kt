@@ -49,11 +49,10 @@ class FuturesClient(api: String, secretKey: String) : BaseClient(api, secretKey)
 
         when (result) {
             is Result.Failure -> {
-                println(response)
+                throw Exception(response.toString())
             }
             is Result.Success -> {
                 val data = result.get()
-                println(data)
             }
         }
     }
@@ -69,7 +68,6 @@ class FuturesClient(api: String, secretKey: String) : BaseClient(api, secretKey)
             }
             is Result.Success -> {
                 val data = JSONObject(result.get())
-                println(data)
                 return data.getJSONArray("symbols")
             }
         }
