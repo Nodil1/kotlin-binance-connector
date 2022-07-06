@@ -1,12 +1,9 @@
 package com.nodil.binance.core.clients
 
-import com.github.kittinunf.fuel.core.FuelError
-import com.github.kittinunf.fuel.core.await
 import com.github.kittinunf.fuel.httpGet
 import com.github.kittinunf.fuel.httpPost
 import com.github.kittinunf.result.Result
-import com.google.gson.JsonObject
-import com.nodil.binance.core.models.FutureTradeRequest
+import com.nodil.binance.core.models.requests.FutureTradeRequest
 
 import com.nodil.binance.core.models.enums.TradeSide
 import com.nodil.binance.core.models.enums.TradeTypes

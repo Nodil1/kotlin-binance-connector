@@ -1,4 +1,4 @@
-package com.nodil.binance.core.models
+package com.nodil.binance.core.models.requests
 
 import java.sql.Timestamp
 
