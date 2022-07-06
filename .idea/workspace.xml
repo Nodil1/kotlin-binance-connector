@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1eeda25-a919-48c3-ac74-b7263b068862" name="Changes" comment="change path">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/clients/SpotClient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/KlineHistory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/clients/FuturesClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/clients/FuturesClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/FutureTradeRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/requests/FutureTradeRequest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/Kline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/Kline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/KlineData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/KlineData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/KlineInterval.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nodil/binance/core/models/enums/KlineInterval.kt" afterDir="false" />
-    </list>
+    <list default="true" id="f1eeda25-a919-48c3-ac74-b7263b068862" name="Changes" comment="change path" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/progi/kotlin-algotrader",
+    "last_opened_file_path": "C:/trader/binance-trader",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
